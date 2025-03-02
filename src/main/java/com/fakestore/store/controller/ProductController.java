@@ -34,7 +34,7 @@ public class ProductController {
 		return productService.addMultipleProducts(products);
 	}
 	
-	@GetMapping("")
+	@GetMapping("/getAllProducts")
 	public List<Product> getAllProducts(){
 		return productService.getAllProducts();
 	}
